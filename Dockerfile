@@ -7,4 +7,4 @@ WORKDIR /app
 ADD . /app
 
 #install angular-cli
-RUN npm install -g angular-cli
+RUN npm install -g @angular/cli
